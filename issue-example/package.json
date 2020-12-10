@@ -1,0 +1,23 @@
+{
+  "name": "react-spring-issue-example",
+  "author": "Alex Guerra",
+  "license": "ISC",
+  "scripts": {
+    "serve": "webpack && serve dist"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-spring": "link:../packages/react-spring/dist",
+    "@react-spring/animated": "link:../packages/animated/dist",
+    "@react-spring/core": "link:../packages/core/dist",
+    "@react-spring/konva": "link:../targets/konva/dist",
+    "@react-spring/native": "link:../targets/native/dist",
+    "@react-spring/three": "link:../targets/three/dist",
+    "@react-spring/web": "link:../targets/web/dist",
+    "@react-spring/zdog": "link:../targets/zdog/dist",
+    "serve": "^11.3.2",
+    "webpack": "^5.10.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
